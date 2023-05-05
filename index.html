@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Shop</title>
+        <!-- CSS-link -->
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/17ab81d994.js" crossorigin="anonymous"></script>
+        <!-- font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+        <!-- javascipt -->
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+    <body>
+        <header>
+            <nav class="nav-bar">
+                <a href="#" class="logo"><img src="image/logo.png" alt="" /></a>
+                <ul class="navmenu" id="navmenu">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">products</a></li>
+                    <li><a href="#">page</a></li>
+                    <li><a href="#">docs</a></li>
+                </ul>
+                <div class="nav-icon">
+                    <a href="#"><i class="bx bx-search"></i></a>
+                    <a href="#"><i class="bx bx-user"></i></a>
+                    <a href="#"><i class="bx bx-cart"></i></a>
+                    <i class="bx bx-menu" id="menu-icon" onclick="showmenu()" on></i>
+                </div>
+            </nav>
+        </header>
+        <section class="main-home">
+            <div class="main-text">
+                <h5>Winter Collection</h5>
+                <h1>
+                    New Winter <br />
+                    Collection 2022
+                </h1>
+                <p>There's Nothing Like This Trend</p>
+                <a href="#" class="main-btn">Shop Now<i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+            <div class="down down-arrow">
+                <a href="#"><i class="bx bx-down-arrow-alt"></i></a>
+            </div>
+        </section>
+        <!-- products -->
+        <section class="trending-product" id="product">
+            <h1>Our Trending <span>Products</span></h1>
+            <div class="product">
+                <div class="row">
+                    <img src="image/1.jpg" alt="" />
+                    <div class="layer">
+                        <h5>Sale</h5>
+                    </div>
+                    <i class="heart bx bx-heart"></i>
+                    <div class="star">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <p>Half Running Set</p>
+                    <p class="price">$99 - $129</p>
+                </div>
+                <div class="row">
+                    <img src="image/2.jpg" alt="" />
+                    <div class="layer">
+                        <h5>New</h5>
+                    </div>
+                    <i class="heart bx bx-heart"></i>
+                    <div class="star">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <p>Formal Men Lowers</p>
+                    <p class="price">$99 - $129</p>
+                </div>
+                <div class="row">
+                    <img src="image/3.jpg" alt="" />
+                    <!-- <h5>Sale</h5> -->
+                    <i class="heart bx bx-heart"></i>
+                    <div class="star">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <p>Half Running Suit</p>
+                    <p class="price">$99 - $129</p>
+                </div>
+                <div class="row">
+                    <img src="image/4.jpg" alt="" />
+                    <div class="layer">
+                        <h5>Hot</h5>
+                    </div>
+                    <i class="heart bx bx-heart"></i>
+                    <div class="star">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <p>Half Fancy Lady Dress</p>
+                    <p class="price">$99 - $129</p>
+                </div>
+                <div class="row">
+                    <img src="image/5.jpg" alt="" />
+                    <!-- <h5>Sale</h5> -->
+                    <i class="heart bx bx-heart"></i>
+                    <div class="star">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <p>Flex Flox Jeans</p>
+                    <p class="price">$99 - $129</p>
+                </div>
+                <div class="row">
+                    <img src="image/6.jpg" alt="" />
+                    <div class="layer">
+                        <h5>Hot</h5>
+                    </div>
+                    <i class="heart bx bx-heart"></i>
+                    <div class="star">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <p>Fancy Salwar Suit</p>
+                    <p class="price">$99 - $129</p>
+                </div>
+                <div class="row">
+                    <img src="image/7.jpg" alt="" />
+                    <div class="layer">
+                        <h5>Sale</h5>
+                    </div>
+                    <i class="heart bx bx-heart"></i>
+                    <div class="star">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <p>Printed Strainght Kurta</p>
+                    <p class="price">$99 - $129</p>
+                </div>
+
+                <div class="row">
+                    <img src="image/8.jpg" alt="" />
+                    <div class="layer">
+                        <h5>Sale</h5>
+                    </div>
+                    <i class="heart bx bx-heart"></i>
+                    <div class="star">
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star"></i>
+                        <i class="bx bxs-star-half"></i>
+                    </div>
+                    <p>Collot Full Dress</p>
+                    <p class="price">$99 - $129</p>
+                </div>
+            </div>
+        </section>
+        <!-- client-review -->
+        <section class="client">
+            <div class="review">
+                <h1>Client Reviews</h1>
+                <img src="image/team-1.jpg" alt="" />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum.
+                </p>
+                <h2>Justin Bieber</h2>
+                <p>CEO of Addle</p>
+            </div>
+        </section>
+        <!-- update -->
+        <section class="update">
+            <h1>New Updates</h1>
+            <div class="update-cart">
+                <div class="cart">
+                    <img src="image/bl-1.png" alt="" />
+                    <h5>26 Jan 2022</h5>
+                    <h4>Let's Start bring sale on this summer vacation.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis
+                    </p>
+                    <h6>Continue Reading..</h6>
+                </div>
+                <div class="cart">
+                    <img src="image/bl-2.png" alt="" />
+                    <h5>26 Jan 2022</h5>
+                    <h4>Let's Start bring sale on this summer vacation.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis
+                    </p>
+                    <h6>Continue Reading..</h6>
+                </div>
+                <div class="cart">
+                    <img src="image/bl-3.png" alt="" />
+                    <h5>26 Jan 2022</h5>
+                    <h4>Let's Start bring sale on this summer vacation.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis
+                    </p>
+                    <h6>Continue Reading..</h6>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section class="contact">
+            <div class="contact-info">
+                <div class="contact-address">
+                    <img src="image/logo.png" alt="" />
+                    <p>
+                        3245 Grant Street Longview, <br />
+                        TX United Kingdom 765378
+                    </p>
+                    <p>01601348732</p>
+                    <p><a href="mailto:ahtimo2108@gmail.com" target="_blank">ahtimo2108@gmail.com</a></p>
+                    <div class="social-icon">
+                        <i class="bx bxl-facebook"></i>
+                        <i class="bx bxl-twitter"></i>
+                        <i class="bx bxl-instagram"></i>
+                        <i class="bx bxl-youtube"></i>
+                        <i class="bx bxl-linkedin"></i>
+                    </div>
+                </div>
+                <div class="contact-service">
+                    <h3>support</h3>
+                    <p>contact us</p>
+                    <p>about page</p>
+                    <p>size guide</p>
+                    <p>shopping & return</p>
+                    <p>privacy</p>
+                </div>
+                <div class="contact-service">
+                    <h3>shop</h3>
+                    <p>men's shopping</p>
+                    <p>women's shopping</p>
+                    <p>kid's shopping</p>
+                    <p>furniture</p>
+                    <p>discount</p>
+                </div>
+                <div class="contact-service">
+                    <h3>company</h3>
+                    <p>blog</p>
+                    <p>about us</p>
+                    <p>affiliate</p>
+                    <p>login</p>
+                </div>
+                <div class="contact-service">
+                    <h3>subscribe</h3>
+                    <p>Receive Updates, Hot Deals, Discounts Sent Straight In Your Inbox Daily</p>
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eum, Debitis.</p>
+                    <p>Receive Updates, Hot Deals, Discounts Sent Straight In Your Inbox Daily</p>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="copyright">
+                <p>Copyright © @2022. All Rights Reserved.Designd By Saidul Islam.</p>
+            </div>
+        </footer>
+        <script src="java.js"></script>
+    </body>
+</html>
